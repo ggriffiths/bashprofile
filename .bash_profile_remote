@@ -9,5 +9,3 @@ alias sbp="source ~/.bashrc"
 alias gows="cd $GOWS"
 alias l="ls -ltra"
 
-# Additional
-source ~/.zshrc
