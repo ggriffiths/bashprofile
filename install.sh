@@ -1,4 +1,4 @@
 #!/bin/bash
-echo "Created sym links to ~/.bashrc and ~/.bashrc"
-ln -s .bashrc ~/.bashrc
-ln -s .zshrc ~/.zshrc
+echo "Creating sym links"
+ln -s ./bashprofile/.bash_profile_remote ~/.bash_profile_remote
+ln -s ./bashprofile/.zshrc ~/.zshrc

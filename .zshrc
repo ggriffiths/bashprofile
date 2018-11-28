@@ -99,5 +99,3 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Git branch in prompt.
-
-source ~/.bashrc
