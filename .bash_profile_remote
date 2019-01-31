@@ -2,7 +2,7 @@
 export GOPATH=~/workspace/go
 export GOWS=$GOPATH/src/github.com/libopenstorage
 export GOWSO=$GOPATH/src/github.com/libopenstorage
-export GOWSP=$GOPATH/src/github.com/libopenstorage
+export GOWSP=$GOPATH/src/github.com/portworx
 export PATH=$PATH:$GOPATH/bin
 
 # Aliases 
@@ -13,3 +13,6 @@ alias gowso="cd $GOWSO"
 alias gowsp="cd $GOWSP"
 alias l="ls -ltra"
 
+function fa {
+	grep -nr '$1*' .
+}
