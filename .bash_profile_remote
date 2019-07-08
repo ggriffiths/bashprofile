@@ -1,8 +1,9 @@
 # Variables
 export GOPATH=~/workspace/go
-export GOWS=$GOPATH/src/github.com/libopenstorage
+export GOWS=$GOPATH/src/github.com
 export GOWSO=$GOPATH/src/github.com/libopenstorage
 export GOWSP=$GOPATH/src/github.com/portworx
+export GOWSK=$GOPATH/src/github.com/kubernetes-csi
 export PATH=$PATH:$GOPATH/bin
 
 # Aliases 
@@ -12,7 +13,9 @@ alias gows="cd $GOWS"
 alias gowso="cd $GOWSO"
 alias gowsp="cd $GOWSP"
 alias l="ls -ltra"
+alias kk='KUBECONFIG=~/workspace/kubeup/kubeconfig.conf kubectl'
+alias kn='KUBECONFIG=~/workspace/kubeup/kubeconfig.conf kubectl -n kube-system'
 
-function fa {
-	grep -nr '$1*' .
-}
+# Settings
+export HISTTIMEFORMAT="%m/%d/%y %T "
+
