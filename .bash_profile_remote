@@ -12,6 +12,7 @@ alias sbp="source ~/.bashrc"
 alias gows="cd $GOWS"
 alias gowso="cd $GOWSO"
 alias gowsp="cd $GOWSP"
+alias gowsk="cd $GOWSK"
 alias l="ls -ltra"
 alias kk='KUBECONFIG=~/workspace/kubeup/kubeconfig.conf kubectl'
 alias kn='KUBECONFIG=~/workspace/kubeup/kubeconfig.conf kubectl -n kube-system'
