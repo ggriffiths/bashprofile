@@ -5,6 +5,9 @@ export GOWSO=$GOPATH/src/github.com/libopenstorage
 export GOWSP=$GOPATH/src/github.com/portworx
 export GOWSK=$GOPATH/src/github.com/kubernetes-csi
 export PATH=$PATH:$GOPATH/bin
+export GITHUB_USER=ggriffiths
+export FORK_REMOTE=github
+export UPSTREAM_REMOTE=origin
 
 # Aliases 
 alias ebp="vi ~/.bashrc"
