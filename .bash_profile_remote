@@ -8,6 +8,10 @@ export PATH=$PATH:$GOPATH/bin
 export GITHUB_USER=ggriffiths
 export FORK_REMOTE=github
 export UPSTREAM_REMOTE=origin
+export KUBECONFIG=~/workspace/kubeup/kubeconfig.conf
+export DOCKER_HUB_STORAGE_OPERATOR_TAG=latest
+export DOCKER_HUB_STORAGE_OPERATOR_IMAGE=px-operator
+export DOCKER_HUB_REPO=grantpx
 
 # Aliases 
 alias ebp="vi ~/.bashrc"
@@ -17,8 +21,8 @@ alias gowso="cd $GOWSO"
 alias gowsp="cd $GOWSP"
 alias gowsk="cd $GOWSK"
 alias l="ls -ltra"
-alias kk='KUBECONFIG=~/workspace/kubeup/kubeconfig.conf kubectl'
-alias kn='KUBECONFIG=~/workspace/kubeup/kubeconfig.conf kubectl -n kube-system'
+alias kk='kubectl'
+alias kn='kubectl -n kube-system'
 
 # Settings
 export HISTTIMEFORMAT="%m/%d/%y %T "
