@@ -29,7 +29,7 @@ alias gowso="cd $GOWSO"
 alias gowsp="cd $GOWSP"
 alias gowsk="cd $GOWSK"
 alias l="ls -ltra"
-alias kk='kubectl'
+alias k='kubectl'
 alias kn='kubectl -n kube-system'
 
 # Settings
