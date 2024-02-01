@@ -1,8 +1,6 @@
 # Variables
 export GOPATH=~/workspace/go
 export GOWS=$GOPATH/src/github.com
-export GOWSO=$GOPATH/src/github.com/libopenstorage
-export GOWSP=$GOPATH/src/github.com/portworx
 export GOWSK=$GOPATH/src/github.com/kubernetes-csi
 export WSKU=~/workspace/kubeup
 export WST=~/workspace/test
@@ -13,14 +11,8 @@ export GITHUB_USER=ggriffiths
 export FORK_REMOTE=github
 export UPSTREAM_REMOTE=origin
 export KUBECONFIG=~/workspace/kubeup/kubeconfig-k8s-1.conf
-export DOCKER_HUB_STORAGE_OPERATOR_TAG=latest
-export DOCKER_HUB_STORAGE_OPERATOR_IMAGE=pxoperator
 export DOCKER_HUB_REPO=docker.io/ggriffiths
-export STORK_IMG=quay.io/ggriffiths/stork
-export CMD_EXECUTOR_IMG=quay.io/ggriffiths/storkexecuter
-export DOCKER_HUB_STORK_TAG=latest
 export KUBEUP_USER=grant
-export NOMAD_ADDR=http://70.0.82.5:4646
 
 # Aliases 
 alias ebp="vi ~/.bashrc"
@@ -28,13 +20,10 @@ alias sbp="source ~/.bashrc"
 alias gows="cd $GOWS"
 alias ku="cd $WSKU"
 alias wt="cd $WST"
-alias gowso="cd $GOWSO"
-alias gowsp="cd $GOWSP"
 alias gowsk="cd $GOWSK"
 alias l="ls -ltra"
 alias k='kubectl'
 alias kn='kubectl -n kube-system'
-alias kp='kubectl -n pds-system'
 alias cluster1='export KUBECONFIG=~/workspace/kubeup/kubeconfig-k8s-1.conf'
 alias cluster2='export KUBECONFIG=~/workspace/kubeup/kubeconfig-k8s-2.conf'
 
